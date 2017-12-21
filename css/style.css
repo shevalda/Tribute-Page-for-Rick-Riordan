@@ -1,0 +1,120 @@
+body {
+  background-color: #DCDAD5;
+  color: #3b3850;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul li {
+  font-weight: bold;
+}
+
+a {
+  color: #e66d4c;
+}
+
+a:hover {
+  color: #b33b19;
+}
+
+#main_body {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+#text_header {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#name {
+  font-family: 'Playfair Display', serif;
+  font-size: 75px;
+}
+
+#photo {
+  margin: 0;
+  position: absolute;
+  top: 52%;
+  right: 7%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#the_image {
+  border-radius: 300px;
+  width: 300px;
+}
+
+#main_content {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#left-coloumn {
+  background-color: #F7F7FF;
+  margin: 20px 40px 20px 100px;
+}
+
+#quote_part {
+  padding: 50px;
+}
+
+#link_to_profile {
+  font-size: 14px;
+  text-align: center;
+}
+
+#right-coloumn {
+  background-color: #F7F7FF;
+  margin: 20px 20px 20px 0px;
+}
+
+#credits {
+  text-align: center;
+  padding: 30px;
+  background-color: #d7d28e;
+  color: #ffffff;
+  border-radius: 100px;
+  margin-bottom: 50px;
+}
+
+.smaller_text {
+  vertical-align: sup;
+  font-size: smaller;
+}
+
+.year {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.sub_title {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.content {
+  padding: 30px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  color: #bdb542;
+  font-family: 'Playfair Display', serif;
+}
